@@ -1,14 +1,10 @@
 {
   "rewrites": [
-
     {"source": "/", "destination": "https://gumlet-new.vercel.app/"},
     {"source": "/:match*", "destination": "https://gumlet-new.vercel.app/:match*"},
-
     {"source": "/vimeo-pricing", "destination": "https://gumlet-new.vercel.app/vimeo-pricing"},
     {"source": "/vimeo-pricing/:match*", "destination": "https://gumlet-new.vercel.app/vimeo-pricing/:match*"},
-
     {"source": "/cancel-sub", "destination": "https://gumlet-new.vercel.app/cancel-sub"},
-    {"source": "/canccel-sub/:match*", "destination": "https://gumlet-new.vercel.app/cancel-sub/:match*"},
-    
+    {"source": "/cancel-sub/:match*", "destination": "https://gumlet-new.vercel.app/cancel-sub/:match*"}
   ]
 }
