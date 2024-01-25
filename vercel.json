@@ -1,6 +1,8 @@
 {
   "rewrites": [
-    {"source": "/", "destination": "https://gumlet-new.vercel.app/"},
-    {"source": "/:match*", "destination": "https://gumlet-new.vercel.app/:match*"},
+
+    {"source": "/gm-new", "destination": "https://gumlet-new.vercel.app/"},
+    {"source": "/gm-new/:match*", "destination": "https://gumlet-new.vercel.app/:match*"},
+
   ]
 }
